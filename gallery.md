@@ -14,7 +14,7 @@ permalink: /RS-Cinema-Villa-Luxury---Cinematic-Excellence/gallery/
 # Photo Gallery
 
 <div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
-  <img src="/RS-Cinema-Villa-Luxury---Cinematic-Excellence/images/RScinemavilla1.jpg" style="width:30%; min-width:220px;">
+  <img src="/RS-Cinema-Villa-Luxury---Cinematic-Excellence/images/RScinemavilla1.JPG" style="width:30%; min-width:220px;">
   <img src="/RS-Cinema-Villa-Luxury---Cinematic-Excellence/images/RScinemavilla2.jpg" style="width:30%; min-width:220px;">
   <img src="/RS-Cinema-Villa-Luxury---Cinematic-Excellence/images/RScinemavilla3.jpg" style="width:30%; min-width:220px;">
   <img src="/RS-Cinema-Villa-Luxury---Cinematic-Excellence/images/RScinemavilla4.jpg" style="width:30%; min-width:220px;">
