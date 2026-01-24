@@ -1,3 +1,22 @@
 body {
-  background-color: #f5f0e6; /* soft beige */
+  background-color: #111;
+  color: #eee;
+  font-family: system-ui, sans-serif;
+}
+
+.navbar {
+  text-align: center;
+  padding: 18px;
+  background: #000;
+}
+
+.navbar a {
+  margin: 0 15px;
+  color: #ff4d4d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 12px;
 }
