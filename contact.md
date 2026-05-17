@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact & Book Now
+permalink: /contact/
 ---
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
