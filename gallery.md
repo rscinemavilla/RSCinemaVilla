@@ -242,8 +242,7 @@ body { font-family: 'Georgia', serif; background: #0a0a0a; color: #f0e6d3; }
         allowfullscreen>
       </iframe>
     </div>
-
-    <div class="video-wrapper">
+        <div class="video-wrapper">
       <iframe
         src="https://www.youtube.com/embed/V5tWUCpOVVk"
         title="Perfect Venue for Parties"
@@ -254,6 +253,7 @@ body { font-family: 'Georgia', serif; background: #0a0a0a; color: #f0e6d3; }
     </div>
   </div>
 </div>
+
 
 
   <div class="cta-section">
