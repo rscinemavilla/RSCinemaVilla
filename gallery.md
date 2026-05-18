@@ -231,16 +231,30 @@ body { font-family: 'Georgia', serif; background: #0a0a0a; color: #f0e6d3; }
   </div>
 
   <div class="video-section">
-    <h2 class="section-title">&#127916; Video Tour</h2>
-    <div class="video-grid">
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/watch?v=oNUwoxu3glc&t=1s" title="RS Cinema Villa Luxury Villa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/shorts/V5tWUCpOVVk" title="Perfect Venue for Parties" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+  <h2 class="section-title">&#127916; Video Tour</h2>
+  <div class="video-grid">
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/oNUwoxu3glc?start=1"
+        title="RS Cinema Villa Luxury Villa"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/V5tWUCpOVVk"
+        title="Perfect Venue for Parties"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
     </div>
   </div>
+</div>
+
 
   <div class="cta-section">
     <h2>Love what you see?</h2>
