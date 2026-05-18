@@ -235,7 +235,7 @@ body { font-family: 'Georgia', serif; background: #0a0a0a; color: #f0e6d3; }
     <div class="cta-buttons">
       <a href="https://calendly.com/rscinemavilla" class="btn btn-gold" target="_blank">&#128197; Book Now</a>
       <a href="https://wa.me/919206845678" class="btn btn-green" target="_blank">&#128172; WhatsApp Us</a>
-      <a href="https://www.airbnb.com/rooms/rscinemavilla" class="btn btn-airbnb" target="_blank">&#127968; View on Airbnb</a>
+      <a href="https://www.airbnb.co.in/rooms/1506244066053865421" class="btn btn-airbnb" target="_blank">&#127968; View on Airbnb</a>
       <a href="https://www.instagram.com/rs_cinema_villa" class="btn btn-outline" target="_blank">&#128247; Follow us @rs_cinema_villa</a>
     </div>
   </div>
