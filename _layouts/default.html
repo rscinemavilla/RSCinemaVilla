@@ -5,8 +5,106 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | RS Cinema Villa</title>
   <link rel="stylesheet" href="/RSCinemaVilla/assets/css/style.css">
+  <style>
+    .rsv-site-header {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background: rgba(17, 17, 17, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .rsv-site-nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .rsv-brand {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      font-size: 1rem;
+      white-space: nowrap;
+    }
+
+    .rsv-menu {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .rsv-menu a {
+      color: rgba(255, 255, 255, 0.88);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 10px 14px;
+      border-radius: 999px;
+      transition: all 0.2s ease;
+    }
+
+    .rsv-menu a:hover {
+      background: rgba(201, 169, 110, 0.14);
+      color: #ffffff;
+    }
+
+    .rsv-menu a.rsv-menu-highlight {
+      background: linear-gradient(135deg, #c9a96e 0%, #a88442 100%);
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    .rsv-page-content {
+      min-height: 100vh;
+    }
+
+    @media (max-width: 768px) {
+      .rsv-site-nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .rsv-menu {
+        width: 100%;
+        gap: 10px;
+      }
+
+      .rsv-menu a {
+        padding: 10px 12px;
+      }
+    }
+  </style>
 </head>
 <body>
-  {{ content }}
+
+  <header class="rsv-site-header">
+    <nav class="rsv-site-nav">
+      <a href="/RSCinemaVilla/" class="rsv-brand">RS Cinema Villa</a>
+
+      <div class="rsv-menu">
+        <a href="/RSCinemaVilla/">Home</a>
+        <a href="/RSCinemaVilla/gallery/">Gallery</a>
+        <a href="/RSCinemaVilla/about-villa/">About Villa</a>
+        <a href="/RSCinemaVilla/pricing/">Pricing</a>
+        <a href="/RSCinemaVilla/reviews/">Reviews & Testimonials</a>
+        <a href="/RSCinemaVilla/contact/">Contact & Book Now</a>
+        <a href="/RSCinemaVilla/booking-enquiry-form/" class="rsv-menu-highlight">Booking Enquiry Form</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="rsv-page-content">
+    {{ content }}
+  </main>
+
 </body>
 </html>
