@@ -133,7 +133,7 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
     <a href="/RSCinemaVilla/pricing/">Pricing</a>
     <a href="/RSCinemaVilla/reviews/">Reviews &amp; Testimonials</a>
     <a href="/RSCinemaVilla/contact/" class="active">Contact &amp; Book Now</a>
-    <a href="https://wa.me/919206845678" class="nav-book-btn" target="_blank">Enquire Now</a>
+    <a href="/RSCinemaVilla/booking-enquiry-form/" class="nav-book-btn">Booking Enquiry Form</a>
   </nav>
 </header>
 
@@ -189,7 +189,7 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
           <div class="c-value">Open 24/7 &mdash; 7 days a week</div>
         </div>
       </div>
-      <a href="https://wa.me/919206845678" class="wa-btn" target="_blank">&#128172; WhatsApp Us Now &mdash; We Respond Instantly</a>
+      <a href="/RSCinemaVilla/booking-enquiry-form/" class="nav-book-btn">Booking Enquiry Form</a>
     </div>
     <div>
       <div class="map-box">
