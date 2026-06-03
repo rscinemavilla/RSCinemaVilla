@@ -161,7 +161,8 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
     <a href="/RSCinemaVilla/pricing/">Pricing</a>
     <a href="/RSCinemaVilla/reviews/">Reviews &amp; Testimonials</a>
     <a href="/RSCinemaVilla/contact/">Contact &amp; Book Now</a>
-    <a href="https://wa.me/919206845678" class="nav-book-btn" target="_blank">Enquire Now</a>
+    <a href="/RSCinemaVilla/booking-enquiry-form/" class="nav-book-btn">Enquire Now</a>
+    <a href="https://wa.me/919206845678" class="nav-book-btn" target="_blank">WhatsApp/a>
   </nav>
 </header>
 
