@@ -16,7 +16,7 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
 .site-nav a{color:#555;text-decoration:none;padding:0 14px;height:64px;line-height:64px;font-size:13px;font-weight:400;letter-spacing:0.5px;transition:color 0.2s}
 .site-nav a:hover{color:#1a1a1a}
 .site-nav a.active{color:#1a1a1a;font-weight:500;border-bottom:2px solid #c9a96e}
-.nav-book-btn{background:#1a1a1a;color:#fff!important;padding:10px 22px!important;height:auto!important;line-height:normal!important;border-radius:3px;font-size:13px!important;letter-spacing:1px!important;transition:background 0.2s!important}
+.nav-book-btn{background:#1a1a1a;color:#fff!important;padding:10px 22px!important;height:auto!important;line-height:normal!important;border-radius:3px;font-size:13px!important;letter-spacing:1px!important;transition:background 0.2s!important;margin-left:10px;display:inline-flex;align-items:center;justify-content:center}
 .nav-book-btn:hover{background:#333!important}
 
 .hero{position:relative;width:100%;height:55vh;min-height:380px;background:url('/RSCinemaVilla/images/RScinemavilla2.JPG') center/cover no-repeat;display:flex;align-items:flex-end;justify-content:flex-start;overflow:hidden}
@@ -189,7 +189,7 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
           <div class="c-value">Open 24/7 &mdash; 7 days a week</div>
         </div>
       </div>
-      <a href="/RSCinemaVilla/booking-enquiry-form/" class="nav-book-btn">Booking Enquiry Form</a>
+      <a href="https://wa.me/919206845678" class="wa-btn" target="_blank">&#128172; WhatsApp Us Now &mdash; We Respond Instantly</a>
     </div>
     <div>
       <div class="map-box">
