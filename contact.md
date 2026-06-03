@@ -33,11 +33,9 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
 .divider{width:48px;height:1px;background:#c9a96e;margin:20px 0 24px}
 .body-text{font-size:1rem;color:#555;line-height:1.85;font-weight:300}
 
-/* CONTACT INTRO */
 .contact-intro{background:#fff;padding:64px;text-align:center;border-bottom:1px solid rgba(0,0,0,0.07)}
 .contact-intro-inner{max-width:700px;margin:0 auto}
 
-/* CONTACT GRID */
 .contact-main{background:#faf9f7;padding:96px 64px}
 .contact-main-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
 .contact-details-box{background:#fff;padding:48px;border-top:3px solid #c9a96e}
@@ -61,7 +59,6 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
 .map-link{display:inline-flex;align-items:center;gap:8px;color:#c9a96e;font-size:13px;letter-spacing:0.5px;text-decoration:none;font-weight:500;border-bottom:1px solid #c9a96e;padding-bottom:2px;transition:color 0.2s}
 .map-link:hover{color:#b8914f;border-bottom-color:#b8914f}
 
-/* HOW TO BOOK */
 .book-section{background:#1a1a1a;padding:96px 64px}
 .book-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
 .book-section .section-title{color:#fff}
@@ -84,7 +81,6 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
 .btn-airbnb{background:#FF5A5F;color:#fff}
 .btn-airbnb:hover{background:#e04f54}
 
-/* LOCATION */
 .location-section{background:#fff;padding:96px 64px;border-top:1px solid rgba(0,0,0,0.07)}
 .location-inner{max-width:1100px;margin:0 auto}
 .nearby-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:56px}
@@ -93,7 +89,6 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
 .nearby-name{font-size:0.95rem;color:#1a1a1a;font-weight:500;margin-bottom:4px}
 .nearby-dist{font-size:0.82rem;color:#888;font-weight:300}
 
-/* HOUSE RULES */
 .rules-section{background:#f0ebe1;padding:96px 64px}
 .rules-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:64px}
 .rules-list{margin-top:56px;display:flex;flex-direction:column;gap:2px}
@@ -137,7 +132,6 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
   </nav>
 </header>
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-content">
     <span class="hero-eyebrow">Get in Touch &middot; Book Your Stay</span>
@@ -146,7 +140,6 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
   </div>
 </section>
 
-<!-- CONTACT INTRO -->
 <div class="contact-intro">
   <div class="contact-intro-inner">
     <p class="section-eyebrow">We&rsquo;re here for you</p>
@@ -156,7 +149,6 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
   </div>
 </div>
 
-<!-- CONTACT DETAILS + MAP -->
 <section class="contact-main">
   <div class="contact-main-inner">
     <div class="contact-details-box">
@@ -179,7 +171,7 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
         <div class="c-icon">&#128247;</div>
         <div>
           <div class="c-label">Instagram</div>
-          <div class="c-value"><a href="https://www.instagram.com/rs_cinema_villa" target="_blank">@rs_cinema_villa</a></div>
+          <div class="c-value"><a href="https://www.instagram.com/rs_cinema_villa" target="_blank"> @rs_cinema_villa</a></div>
         </div>
       </div>
       <div class="contact-item">
@@ -203,7 +195,6 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
   </div>
 </section>
 
-<!-- HOW TO BOOK -->
 <section class="book-section">
   <div class="book-inner">
     <div>
@@ -232,7 +223,6 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
   </div>
 </section>
 
-<!-- LOCATION & NEARBY -->
 <section class="location-section">
   <div class="location-inner">
     <p class="section-eyebrow">Location &amp; Nearby</p>
@@ -250,7 +240,6 @@ body{font-family:'Jost',sans-serif;background:#faf9f7;color:#1a1a1a}
   </div>
 </section>
 
-<!-- HOUSE RULES -->
 <section class="rules-section">
   <div class="rules-inner">
     <div>
