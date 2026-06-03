@@ -4,9 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | RS Cinema Villa</title>
-  <link rel="stylesheet" href="/RSCinemaVilla/assets/css/style.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  {{ content }}
+  <header class="site-header">
+    <div class="container">
+      <a href="{{ '/' | relative_url }}" class="logo">RS Cinema Villa</a>
+
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about-villa/' | relative_url }}">About Villa</a>
+        <a href="{{ '/amenities/' | relative_url }}">Amenities</a>
+        <a href="{{ '/gallery/' | relative_url }}">Gallery</a>
+        <a href="{{ '/pricing/' | relative_url }}">Pricing</a>
+        <a href="{{ '/reviews/' | relative_url }}">Reviews</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        <a href="{{ '/booking-enquiry-form/' | relative_url }}" class="book-btn">Booking Enquiry Form</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
 </body>
 </html>
