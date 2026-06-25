@@ -155,9 +155,11 @@ def generate_caption() -> str:
 
 
 def public_image_url(filename: str) -> str:
+    from urllib.parse import quote
+    encoded = quote(filename, safe="")
     return (
         f"https://raw.githubusercontent.com/{GITHUB_REPOSITORY}/"
-        f"{GITHUB_REF_NAME}/photos/{filename}"
+        f"{GITHUB_REF_NAME}/photos/{encoded}"
     )
 
 
