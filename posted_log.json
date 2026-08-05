@@ -2,11 +2,12 @@
   "posted": [
     "1.png",
     "10.png",
-    "11.png"
+    "11.png",
+    "12.png"
   ],
   "last_posted": {
-    "photo": "11.png",
-    "date": "2026-08-04T06:09:02.475180+00:00",
+    "photo": "12.png",
+    "date": "2026-08-05T06:04:52.862483+00:00",
     "results": {
       "facebook": "skipped",
       "instagram": "skipped",
@@ -833,6 +834,17 @@
     {
       "photo": "11.png",
       "date": "2026-08-04T06:09:02.475180+00:00",
+      "results": {
+        "facebook": "skipped",
+        "instagram": "skipped",
+        "twitter": "skipped",
+        "linkedin": "skipped",
+        "youtube": "skipped"
+      }
+    },
+    {
+      "photo": "12.png",
+      "date": "2026-08-05T06:04:52.862483+00:00",
       "results": {
         "facebook": "skipped",
         "instagram": "skipped",
